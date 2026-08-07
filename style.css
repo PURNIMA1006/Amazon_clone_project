@@ -8,7 +8,6 @@
 }
 .border:hover{
     border: 1.5px solid white;
-    border-radius: 5px;
 }
 
 /*box1*/
@@ -56,6 +55,10 @@
 
 /*box3*/
 
+.nav-search:hover{
+    border:2.5px solid #fc9713;
+
+}
 .nav-search{
     display:flex;
     justify-content: space-evenly;
@@ -74,6 +77,9 @@
     width:100%;
     font-size: 1rem;
     border:none;
+}
+.search-input:focus{
+    outline:none;
 }
 .option{
     background-color:rgb(106, 193, 250);
@@ -112,20 +118,70 @@
 }
 
 /*box5*/
+.nav-signin{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding: 0px 10px 0px 10px;
+}
+.nav-one{
+    font-size:0.7rem;
+    color:#cccccc;
+    background-color:#0f1111;
+    border:none;
+}
+.nav-two{
+    display:flex;
+    font-size:0.85rem;
+    background-color:#0f1111; 
+    font-weight: 700;
+    border:none;
+}
 
-.nav-account{
+/*box6*/
+
+.nav-returns{
+    padding: 0px 10px 0px 10px;
+}
+
+/*box7*/
+
+.nav-cart i{
+    font-size:30px;
+}
+.nav-cart{
+    display:flex;
+    align-items:center;
+    padding: 0px 10px 0px 10px;
+    font-size:0.85rem;
+    font-weight: 700;
+}
+
+/* panel*/
+
+.panel{
     display:flex;
     align-items:center;
     justify-content: space-evenly;
-}
-.account-one{
-    font-size: 1rem;
-    color:#cccccc;
-    background-color:#0f1111
-}
-.account-two{
-    font-size:1.2rem;
+    background-color:#222f3d;
+    height:40px;
     color:#ffffff;
-    background-color:#0f1111
-    border:none;
 }
+.panel-ops{
+    width: 70%;
+}
+.panel-ops p{
+    display:inline-block;
+    margin:5px 0px 6px 0px;
+    padding:8px;
+    font-size:0.80rem;
+    font-weight: 700;
+}
+.panel-ops p:hover{
+    border:1.5px solid white;
+}
+.panel-deals{
+    font-size:0.95rem;
+    font-weight: 700;
+}
+
