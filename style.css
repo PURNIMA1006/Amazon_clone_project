@@ -190,18 +190,23 @@
     height: 600px;
     background-image:url(/Amazon_clone_project/hero.jpg);
     background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
 }
-.hero-div {
+.hero-msg {
     display:flex;
     align-items:center;
     justify-content:center;
     background-color:#ffffff;
     color:#222f3d;
     height:40px;
-    font-size:14px;
+    font-size:0.85rem;
     font-weight: 700;
+    width:80%;
+    margin-bottom: 25px;
 }
-.hero-div a{
+.hero-msg a{
     color:#007185;
     text-decoration:underline;
 }
