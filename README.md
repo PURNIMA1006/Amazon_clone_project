@@ -21,10 +21,11 @@ A responsive front-end clone of the Amazon homepage built using **HTML5** and **
 
 ## 📂 Project Structure
 
-Amazon-Clone/
-│── index.html
-│── style.css
-│── README.md
+Amazon-Clone--
+<br>
+index.html
+style.css
+README.md
 
 
 ## 💻 Getting Started
