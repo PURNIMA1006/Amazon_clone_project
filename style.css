@@ -185,3 +185,25 @@
     font-weight: 700;
 }
 
+/* hero section*/
+.hero-section{
+    height: 600px;
+    width:100%;
+    background-image:url(/Amazon_clone_project/hero_image.jpg);
+    background-size:cover;
+}
+.hero-div {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#ffffff;
+    color:#222f3d;
+    height:40px;
+    font-size:14px;
+    font-weight: 700;
+    padding: 250px 0px 0px 0px;
+}
+.hero-div a{
+    color:#007185;
+    text-decoration:underline;
+}
