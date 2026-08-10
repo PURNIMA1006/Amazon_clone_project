@@ -210,3 +210,35 @@
     color:#007185;
     text-decoration:underline;
 }
+
+/*shop section*/
+.boxes{
+    height:400px;
+    width:22%;
+    background-color:#ffffff;
+    padding : 20px 0px 15px ;
+    margin-top:20px;
+}
+.shop-section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color:rgba(169, 56, 250, 0.25)
+}
+.box-image{
+    height:320px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    margin-top:10px;
+    margin-bottom:8px;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color:#007185;
+    text-decoration:underline;
+}
