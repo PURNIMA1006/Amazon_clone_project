@@ -242,3 +242,72 @@
     color:#007185;
     text-decoration:underline;
 }
+
+/* footer section*/
+
+footer{
+    margin-top: 15px;
+}
+.footer_button{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:50px;
+    font-size:0.85rem;
+    background-color:#37475a;
+    color:#ffffff;
+}
+.footer-panel{
+    display:flex;
+    justify-content: space-evenly;
+    height:300px;
+    background-color:#232f3e;
+    color:#ffffff;
+}
+ul{
+    margin-top: 20px;
+}
+ ul a{
+    display:block;
+    flex-direction:column;
+    list-style-type:none;
+    margin-top:7px;
+    color:#DDDDDD;
+    text-decoration:none;
+}
+ul a:hover{
+    text-decoration:underline;
+}
+.footer-panel2{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    height:100px;
+    background-color: #232f3e;
+    border-top: 0.3px solid white;
+}
+.logoo{
+    background-size:cover;
+    background-image:url(/Amazon_clone_project/amazon_logo.png);
+    height:50px;
+    width:100px;
+}
+.footer-feed{
+    height:70px;
+    background-color: #0f1111;
+    color:#dddddd;
+    text-align: center;
+    font-size:0.7rem;
+}
+ .pages{
+    padding-top:20px;
+}
+.pages a{
+    margin-right: 20px;
+}
+.copyright{
+    padding-top:3px;
+}
+.pages:hover{
+    text-decoration: underline;
+}
